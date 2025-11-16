@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+
+  <aside class="sidebar">
+    <img src="img/home.png" class="icon" data-link="dashboard.html" />
+    <img src="img/dashboard.png" class="icon" data-link="dashboard.html" />
+    <img src="img/uang.png" class="icon" data-link="product.html" />
+    <img src="img/chart.png" class="icon" />
+    <img src="img/setting.png" class="icon"/>
+  </aside>
+
+  <main class="content">
+    <h2 class="dashboard-title">Dashboard</h2>
+
+    <div class="card-wrapper">
+      <div class="card">
+        <img src="img/product.png" class="card-icon" alt="" />
+        <p class="card-title">Total Products</p>
+        <h3 id="totalProducts">0</h3>
+      </div>
+
+      <div class="card">
+        <img src="img/sales.png" class="card-icon" alt="" />
+        <p class="card-title">Total Sales</p>
+        <h3 id="totalSales">0</h3>
+      </div>
+
+      <div class="card">
+        <img src="img/renv.png" class="card-icon" alt="" />
+        <p class="card-title">Total Revenue</p>
+        <h3 id="totalRevenue">Rp 0</h3>
+      </div>
+    </div>
+
+    <button class="btn-produk" onclick="goProduct()">Lihat Data Produk</button>
+  </main>
+</div>
+
+<script src="./uts.js"></script>
+</body>
+</html>
