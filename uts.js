@@ -15,7 +15,7 @@ const password = passwords ? passwords.value.trim() : "";
       return;
     }
 
-    if (password === "") {
+    if (password !== "24090092") {
       if (err) err.textContent = ""; 
       alert("Password harus diisi!");
       return; 
